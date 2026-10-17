@@ -1,0 +1,62 @@
+{
+ "1h": {
+  "bars": 2436,
+  "protocol_hash": "477d8353b71aecf99848eb9ba2c0de478b0e877e5b407d2c8e820ec9e1feafe6",
+  "truncation_audit_pass": true,
+  "chain_valid": true,
+  "ledger_entries": 9,
+  "verdicts": {
+   "GO": 0,
+   "WATCH": 0,
+   "HOLD": 4
+  },
+  "refusals_attested": 4,
+  "final_equity": {
+   "null_wallet": 10000.0,
+   "no_court_gbm": 9392.883551055103,
+   "no_court_logit": 9150.843898072286,
+   "buy_hold_10k": 15894.190483315884
+  },
+  "cost_paid_usd": {
+   "null_wallet": 0.0,
+   "no_court_gbm": 1060.1489745485374,
+   "no_court_logit": 988.3479832256901
+  },
+  "max_dd_pct": {
+   "null_wallet": 0.0,
+   "no_court_gbm": -6.249178926376741,
+   "no_court_logit": -8.654404353800793,
+   "buy_hold": -8.783993467088147
+  }
+ },
+ "4h": {
+  "bars": 607,
+  "protocol_hash": "477d8353b71aecf99848eb9ba2c0de478b0e877e5b407d2c8e820ec9e1feafe6",
+  "truncation_audit_pass": true,
+  "chain_valid": true,
+  "ledger_entries": 9,
+  "verdicts": {
+   "GO": 0,
+   "WATCH": 0,
+   "HOLD": 4
+  },
+  "refusals_attested": 4,
+  "final_equity": {
+   "null_wallet": 10000.0,
+   "no_court_gbm": 9833.175909239886,
+   "no_court_logit": 9930.95249115795,
+   "buy_hold_10k": 16042.24782354278
+  },
+  "cost_paid_usd": {
+   "null_wallet": 0.0,
+   "no_court_gbm": 374.98322042990867,
+   "no_court_logit": 382.0210061675995
+  },
+  "max_dd_pct": {
+   "null_wallet": 0.0,
+   "no_court_gbm": -2.702997964512699,
+   "no_court_logit": -2.1721275904911908,
+   "buy_hold": -7.959945157867021
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "text_vs_rules": {
+  "docs/SUBMISSION_CHECKLIST.md": {
+   "words": 253,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "docs/EXPLAINED_IN_PLAIN_LANGUAGE.md": {
+   "words": 1073,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "docs/Security_Self_Assessment.md": {
+   "words": 1020,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "docs/INNOVATION.md": {
+   "words": 541,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "docs/GITHUB_SETUP.md": {
+   "words": 273,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "docs/Concept_OnePager.md": {
+   "words": 430,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "docs/RULES_COMPLIANCE.md": {
+   "words": 452,
+   "8gram_overlap_with_rules": 1,
+   "share_%": 0.22,
+   "examples": [
+    "third party data code and open source components"
+   ]
+  },
+  "README.md": {
+   "words": 697,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  },
+  "technical notebook (markdown)": {
+   "words": 5250,
+   "8gram_overlap_with_rules": 0,
+   "share_%": 0.0,
+   "examples": []
+  }
+ },
+ "code_vs_packages": {
+  "files_scanned": 3637,
+  "shingle_size_tokens": 25,
+  "overlaps": {
+   "build_slides_nb.py": {
+    "matching_25token_windows": 76,
+    "in": [
+     "pandas/tests/extension/test_arrow.py",
+     "pandas/tests/frame/methods/test_nlargest.py",
+     "pandas/tests/frame/methods/test_reindex.py"
+    ]
+   },
+   "build_deck.py": {
+    "matching_25token_windows": 798,
+    "in": [
+     "numpy/_core/_add_newdocs_scalars.py",
+     "numpy/_core/tests/test_arrayprint.py",
+     "numpy/_core/tests/test_mem_policy.py"
+    ]
+   },
+   "figs_diagrams.py": {
+    "matching_25token_windows": 81,
+    "in": [
+     "numpy/_core/tests/test_multiarray.py",
+     "numpy/_core/tests/test_umath_complex.py",
+     "pandas/conftest.py"
+    ]
+   }
+  },
+  "total_our_files": 36
+ }
+}

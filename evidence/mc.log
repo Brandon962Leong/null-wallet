@@ -1,0 +1,7 @@
+{'b': 0.0, 'markets': 1000, 'GO': 0.0, 'WATCH': 0.0, 'HOLD': 1.0, 'min_skill_p_median': 1.0, 'nocost': False, 'sec': 186}
+{'b': 0.0, 'markets': 1000, 'GO': 0.0, 'WATCH': 0.0, 'HOLD': 1.0, 'min_skill_p_median': 1.0, 'nocost': True, 'sec': 153}
+{'b': 0.05, 'markets': 300, 'GO': 0.006666666666666667, 'WATCH': 0.32666666666666666, 'HOLD': 0.6666666666666666, 'min_skill_p_median': 0.1431500202414855, 'nocost': False, 'sec': 46}
+{'b': 0.1, 'markets': 300, 'GO': 0.14, 'WATCH': 0.6733333333333333, 'HOLD': 0.18666666666666668, 'min_skill_p_median': 0.0011578841404048029, 'nocost': False, 'sec': 48}
+{'b': 0.2, 'markets': 300, 'GO': 0.92, 'WATCH': 0.08, 'HOLD': 0.0, 'min_skill_p_median': 8.084737478279484e-09, 'nocost': False, 'sec': 46}
+{'b': 0.4, 'markets': 300, 'GO': 1.0, 'WATCH': 0.0, 'HOLD': 0.0, 'min_skill_p_median': 9.995408653178322e-24, 'nocost': False, 'sec': 49}
+{'b': 0.8, 'markets': 300, 'GO': 1.0, 'WATCH': 0.0, 'HOLD': 0.0, 'min_skill_p_median': 1.4378761500240522e-65, 'nocost': False, 'sec': 47}

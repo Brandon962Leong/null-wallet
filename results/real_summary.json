@@ -1,0 +1,56 @@
+{
+ "period": [
+  "2019-03-30 00:00:00+00:00",
+  "2022-11-14 23:00:00+00:00"
+ ],
+ "bars": 25502,
+ "verdicts": {
+  "GO": 0,
+  "WATCH": 33,
+  "HOLD": 3
+ },
+ "chain_valid": true,
+ "equity": {
+  "null_wallet": 10000.0,
+  "no_court_gbm": 8000.000208868388,
+  "buy_hold": 24777.797740459566
+ },
+ "cost_paid": {
+  "null_wallet": 0.0,
+  "no_court": 2768.525097539132
+ },
+ "cost_sweep": {
+  "0.0": {
+   "verdicts": {
+    "GO": 10,
+    "WATCH": 23,
+    "HOLD": 3
+   },
+   "final_equity": 9876.844235743069
+  },
+  "0.25": {
+   "verdicts": {
+    "GO": 1,
+    "WATCH": 32,
+    "HOLD": 3
+   },
+   "final_equity": 8970.202939211806
+  },
+  "0.5": {
+   "verdicts": {
+    "GO": 0,
+    "WATCH": 33,
+    "HOLD": 3
+   },
+   "final_equity": 10000.0
+  },
+  "1.0": {
+   "verdicts": {
+    "GO": 0,
+    "WATCH": 33,
+    "HOLD": 3
+   },
+   "final_equity": 10000.0
+  }
+ }
+}

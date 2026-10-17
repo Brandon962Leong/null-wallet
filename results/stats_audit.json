@@ -1,0 +1,28 @@
+{
+ "crosschecks": {
+  "OLS vs numpy.lstsq (max |diff|)": 1.6653345369377348e-15,
+  "Jarque-Bera vs scipy.stats.jarque_bera (|diff|)": 0.0,
+  "Ljung-Box vs direct formula (|diff|)": 7.105427357601002e-15,
+  "Newey-West variance vs autocovariance sum (|diff|)": 0.0,
+  "Holm vs step-down reference (max |diff|)": 0.0,
+  "Block-bootstrap mean sd vs iid theory 1/sqrt(n) (ratio)": 1.0917154057747087
+ },
+ "size_power": {
+  "HAC t (one-sided 5%), iid null, n=720: size": 0.058,
+  "HAC t (one-sided 5%), AR(1) rho=0.3 null: size": 0.07333333333333333,
+  "HAC t (one-sided 5%), mean=0.1 sd: power": 0.8473333333333334,
+  "Diebold-Mariano (one-sided 5%), equal skill: size": 0.05733333333333333,
+  "Jarque-Bera (5%), normal: size": 0.058,
+  "Jarque-Bera (5%), t(4): power": 1.0,
+  "Ljung-Box (5%, 12 lags), iid: size": 0.04066666666666666,
+  "Ljung-Box (5%, 12 lags), AR(1) 0.15: power": 0.765,
+  "Breusch-Pagan (5%), homoskedastic: size": 0.044,
+  "Breusch-Pagan (5%), heteroskedastic: power": 1.0,
+  "ADF (stat < -2.86), random walk: size": 0.056,
+  "ADF (stat < -2.86), AR(1) 0.5: power": 1.0,
+  "KPSS (stat > 0.463), iid: size": 0.05,
+  "KPSS (stat > 0.463), random walk: power": 0.944,
+  "Holm family-wise error, 5 true nulls (target <= 0.05)": 0.0555,
+  "Block-bootstrap 95% CI coverage, iid mean 0 (target 0.95)": 0.9366666666666666
+ }
+}

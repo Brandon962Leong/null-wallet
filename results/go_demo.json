@@ -1,0 +1,17 @@
+{
+ "planted_edge_b": 0.25,
+ "verdicts": {
+  "GO": 11,
+  "WATCH": 0,
+  "HOLD": 0
+ },
+ "approved_moves": 3,
+ "refused_moves": 0,
+ "refusal_codes": [],
+ "final_equity": 13929.1373248633,
+ "min_equity": 9995.811963873526,
+ "regime_guard_events": 4,
+ "chain_valid": true,
+ "ledger_entries": 19,
+ "buy_hold_same_bars": 10145.31077492154
+}

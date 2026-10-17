@@ -1,0 +1,84 @@
+{
+ "replay_period": [
+  "2019-12-18 08:00:00+00:00",
+  "2022-11-14 21:00:00+00:00"
+ ],
+ "hourly_bars": 25502,
+ "protocol_hash": "477d8353b71aecf99848eb9ba2c0de478b0e877e5b407d2c8e820ec9e1feafe6",
+ "ledger_entries": 73,
+ "ledger_chain_valid": true,
+ "verdicts_36_windows": {
+  "GO": 0,
+  "WATCH": 33,
+  "HOLD": 3
+ },
+ "final_equity_usd": {
+  "wallet": 10000.0,
+  "nocourt_gbm_all": 8000.000208868388,
+  "nocourt_logit_all": 8000.001156142261,
+  "nocourt_reversal": 8000.000021499032,
+  "nocourt_trend": 8000.000037310002,
+  "nocourt_rsi_reversal": 8000.000007940746,
+  "buyhold": 24777.797740459566
+ },
+ "max_drawdown_pct": {
+  "wallet": 0.0,
+  "nocourt_gbm_all": -20.59502254269221,
+  "nocourt_logit_all": -20.18003620486143,
+  "buyhold": -77.05361608854184
+ },
+ "cost_sweep": {
+  "0.0": {
+   "GO": 10,
+   "WATCH": 23,
+   "HOLD": 3,
+   "unit_bp": 0.0,
+   "equity": 13576.670540543128
+  },
+  "0.25": {
+   "GO": 1,
+   "WATCH": 32,
+   "HOLD": 3,
+   "unit_bp": 1.8856066017177981,
+   "equity": 9520.934653380795
+  },
+  "0.5": {
+   "GO": 0,
+   "WATCH": 33,
+   "HOLD": 3,
+   "unit_bp": 3.7712132034355963,
+   "equity": 10000.0
+  },
+  "0.75": {
+   "GO": 0,
+   "WATCH": 33,
+   "HOLD": 3,
+   "unit_bp": 5.656819805153394,
+   "equity": 10000.0
+  },
+  "1.0": {
+   "GO": 0,
+   "WATCH": 33,
+   "HOLD": 3,
+   "unit_bp": 7.542426406871193,
+   "equity": 10000.0
+  }
+ },
+ "g1_assumption_audit": {
+  "bp_p": 1.2663222441575452e-19,
+  "lb_p": 0.00015461883692009497,
+  "jb_p": 0.0,
+  "adf": -36.45619411274866,
+  "kpss": 0.38487918321298176,
+  "flags": {
+   "heteroskedastic": true,
+   "autocorrelated": true,
+   "non_normal": true,
+   "returns_stationary": true
+  },
+  "inference_used": "HAC (Newey-West), always (conservative)",
+  "inference_needed": "HAC (Newey-West)",
+  "slope_t_hac": -3.0053653282162027e-15
+ },
+ "note": "sandbox replay with assumed costs; buy&hold is fully invested ($10,000) while the wallet's active bucket is $2,000; regime guard added post hoc"
+}

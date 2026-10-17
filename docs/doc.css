@@ -1,0 +1,14 @@
+@page { size: A4; margin: 18mm 16mm; }
+body { font-family: "Liberation Sans", Arial, sans-serif; font-size: 10.2pt; line-height: 1.42; color: #1B2430; max-width: none; margin: 0; }
+h1 { color: #0B1F3A; font-size: 26pt; margin: 0 0 4pt; } h2 { color: #0B1F3A; font-size: 16pt; border-bottom: 2px solid #0A9396; padding-bottom: 3pt; margin-top: 22pt; page-break-after: avoid; }
+h3 { color: #0A9396; font-size: 12.5pt; margin-top: 14pt; page-break-after: avoid; } h4 { color: #0B1F3A; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 9pt; page-break-inside: avoid; } th { background: #0B1F3A; color: white; text-align: left; padding: 4pt 6pt; } td { border-bottom: 1px solid #D5DBE3; padding: 4pt 6pt; vertical-align: top; }
+tr:nth-child(even) td { background: #F4F6F9; }
+img { max-width: 100%; height: auto; display: block; margin: 8pt auto; page-break-inside: avoid; }
+blockquote { border-left: 4px solid #0A9396; background: #F0F9F9; margin: 8pt 0; padding: 4pt 10pt; }
+pre { background: #F4F6F9; border: 1px solid #D5DBE3; border-radius: 4px; padding: 6pt; font-size: 8.2pt; white-space: pre-wrap; word-break: break-all; }
+code { font-family: "Liberation Mono", monospace; font-size: 8.6pt; } pre code { font-size: 8.2pt; }
+math { font-size: 105%; } math[display="block"] { margin: 8pt 0; }
+nav#TOC { background: #F4F6F9; border-radius: 6px; padding: 8pt 14pt; margin: 10pt 0 18pt; font-size: 9.5pt; } nav#TOC ul { margin: 2pt 0; padding-left: 14pt; } nav#TOC a { color: #0B1F3A; text-decoration: none; }
+header#title-block-header { display: none; }
+div.sourceCode { page-break-inside: avoid; }

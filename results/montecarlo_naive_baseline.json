@@ -1,0 +1,46 @@
+[
+ {
+  "b": 0.0,
+  "markets": 300,
+  "GO": 0.0,
+  "WATCH": 0.0,
+  "HOLD": 1.0,
+  "NAIVE_TRADE": 0.02666666666666667,
+  "min_skill_p_median": 1.0,
+  "nocost": false,
+  "sec": 46
+ },
+ {
+  "b": 0.05,
+  "markets": 300,
+  "GO": 0.006666666666666667,
+  "WATCH": 0.32666666666666666,
+  "HOLD": 0.6666666666666666,
+  "NAIVE_TRADE": 0.11333333333333333,
+  "min_skill_p_median": 0.1431500202414855,
+  "nocost": false,
+  "sec": 57
+ },
+ {
+  "b": 0.1,
+  "markets": 300,
+  "GO": 0.14,
+  "WATCH": 0.6733333333333333,
+  "HOLD": 0.18666666666666668,
+  "NAIVE_TRADE": 0.6066666666666667,
+  "min_skill_p_median": 0.0011578841404048029,
+  "nocost": false,
+  "sec": 94
+ },
+ {
+  "b": 0.2,
+  "markets": 300,
+  "GO": 0.92,
+  "WATCH": 0.08,
+  "HOLD": 0.0,
+  "NAIVE_TRADE": 1.0,
+  "min_skill_p_median": 8.084737478279484e-09,
+  "nocost": false,
+  "sec": 46
+ }
+]

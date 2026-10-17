@@ -1,0 +1,27 @@
+{
+ "funnel": [
+  180,
+  93,
+  93,
+  0,
+  0
+ ],
+ "median_break_even": {
+  "reversal": 4.5583803553045845,
+  "rsi_reversal": 0.7034612593163702,
+  "trend": 3.039151227633247,
+  "logit_all": 1.7441557344031877,
+  "gbm_all": 3.4247565621816953
+ },
+ "cost_bp": 7.542426406871193,
+ "tests": {
+  "Policy rules": 15,
+  "Prompt injection": 5,
+  "Key isolation": 2,
+  "Ledger tampering": 6,
+  "Court / look-ahead / guard": 9,
+  "On-chain preflight": 9,
+  "Crypto (EIP-155)": 5
+ },
+ "mc_file": "evidence/montecarlo.json"
+}
